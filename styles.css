@@ -1,0 +1,47 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color:darkcyan;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    color: cadetblue;
+}
+h2 {
+    text-align: center;
+    color: cadetblue;
+}
+p {
+    color: darkcyan;
+    text-align: center;
+}
+.sitat {
+    font-weight: 400;
+    font-size: x-large;
+    font-style: italic;
+}
+h6 {
+    text-align: center;
+    color: black;
+    font-size: small;
+}
+.bilde1 {
+    width: 400px;
+    border-radius: 50pc;
+    border-color: cadetblue;
+    border-width: 5px;
+    border-style: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.dennelink {
+    margin-left: 790px;
+    margin-right: auto;
+}
