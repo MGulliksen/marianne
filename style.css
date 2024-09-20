@@ -1,0 +1,104 @@
+body{
+    background-color: cadetblue;
+    font-family: sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: darkslategrey;
+}
+h1{
+    text-align: center;
+    color: aquamarine;
+}
+.sitat{
+    text-align: center;
+    color: aqua;
+    font-style: italic;
+    font-weight: bold;    
+}
+.bilde{
+    width: 250px;
+    border-radius: 50%;
+    border-color: blanchedalmond;
+    border-width: 4px;
+    border-style: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h4{
+    text-align: center;
+    color: lemonchiffon;
+}
+h6{
+    color: thistle;
+    text-align: center;
+    font-weight: lighter;
+}
+p{
+    color: black;
+}
+h2{
+    text-align: center;
+    color: deeppink;
+}
+#image{
+    max-height: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#description{
+  text-align: center;
+  font-style: italic;
+  color: aquamarine;  
+}
+#btn{
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .box {
+    background: grey;
+    border-radius: 4px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .boxHuman {
+    background-color: #FFA000;
+    background-image: url('img/o.svg');
+    transition: 0.2s ease;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    pointer-events: none;
+  }
+  
+  .boxComputer {
+    background-color: #3688C3;
+    background-image: url('img/x.svg');
+    transition: 0.2s ease;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    pointer-events: none;
+  }
